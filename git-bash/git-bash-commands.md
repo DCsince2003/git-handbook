@@ -48,3 +48,17 @@ Personal notes from practicing Git Bash commands
 > | $ `ls` <br> `music-library/    recipe/    scavenger-hunt/` |
 > | :-- |
 #
+### Creating
+
+| Command | Purpose |
+| --- | --- |
+| `mkdir` _(make directory)_ | create a new directory within the current directory |
+| `touch` | Create a new file within the current directory |
+| `code` | Open a new file within the VS Code editor |
+> [!NOTE]
+> `code` - only for VS Code 
+>
+> use `charm` for pycharm, `atom` for atom, `subl` for sublime, etc.
+
+> | $ `mkdir new-dr` <br> $`cd new-dr` <br> `/C/Users/thewe/Desktop/git-bash-practice/name` |
+> | :-- |
