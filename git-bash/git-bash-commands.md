@@ -40,25 +40,30 @@ Personal notes from practicing Git Bash commands
 > | :-- |
 
 > | $ `cd Desktop` <br> $ `cd git-bash-practice` | or | $`cd Desktop/git-bash-practice` |
-> | :-- | --- | --- |
-> 
-> | $ `pwd` <br> `/C/Users/thewe/Desktop/git-bash-practice` |
-> | :-- |
+> | :-- | --- | :-- |
 
 > | $ `ls` <br> `music-library/    recipe/    scavenger-hunt/` |
 > | :-- |
 #
-### Creating
+### Creating new file and directory
 
 | Command | Purpose |
 | --- | --- |
 | `mkdir` _(make directory)_ | create a new directory within the current directory |
 | `touch` | Create a new file within the current directory |
 | `code` | Open a new file within the VS Code editor |
+
 > [!NOTE]
-> `code` - only for VS Code 
+> `code` - works only when VS Code is installed
 >
 > use `charm` for pycharm, `atom` for atom, `subl` for sublime, etc.
 
-> | $ `mkdir new-dr` <br> $`cd new-dr` <br> `/C/Users/thewe/Desktop/git-bash-practice/name` |
+> | $ `mkdir new-dr` <br> $`cd new-dr` <br> `/C/Users/thewe/Desktop/git-bash-practice/new-dr` |
 > | :-- |
+
+> | $ `touch wishlist.txt` <br> $ `ls` <br> `wishlist.txt`|
+> | :-- |
+
+> | $ `code pattern.py` |
+> | :-- |
+#
