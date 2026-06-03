@@ -67,3 +67,19 @@ Personal notes from practicing Git Bash commands
 > | $ `code pattern.py` |
 > | :-- |
 #
+### Reading and Writing
+
+| Command | Purpose |
+| --- | --- |
+| `echo` | write or append text directly to the terminal or a file |
+| `cat` | read and display the contents of a file or copy to another file |
+
+> | $ `echo "Hello, World!" > greet.txt` <br> (Automatically create a new file if it does not exist) | ➜ | $ `cat greet.txt` <br> `Hello, World!` |
+> | :-- | --- | :-- |
+
+> | $ `echo "Hello, Friend!" > greet.txt` <br> $ `cat greet.txt` <br> `Hello, Friend!` <br> (replace the text in greet.txt with the new text) | or | $`echo "Hello, Friend!" >> greet.txt` <br> $ `cat greet.txt` <br> `Hello, World!` <br> `Hello, Friend!`  <br> (append the new text at the end of greet.txt) |
+> | :-- | --- | :-- |
+
+> | $ `cat wishlist.txt > to-do-list.txt` <br> (replace the text in to-do-list.txt with the text in wishlist.txt) | or | `cat wishlist.txt >> to-do-list.txt` <br> (append the text in wishlist.txt at the end of to-do-list.txt) |
+> | :-- | --- | :-- |
+#
