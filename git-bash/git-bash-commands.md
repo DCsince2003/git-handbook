@@ -72,7 +72,7 @@ Personal notes from practicing Git Bash commands
 | Command | Purpose |
 | --- | --- |
 | `echo` | write or append text directly to the terminal or a file |
-| `cat` | read and display the contents of a file or copy to another file |
+| `cat` | read and display the contents of a file or write to another file |
 
 > | $ `echo "Hello, World!" > greet.txt` <br> (Automatically create a new file if it does not exist) | ➜ | $ `cat greet.txt` <br> `Hello, World!` |
 > | :-- | --- | :-- |
@@ -81,5 +81,33 @@ Personal notes from practicing Git Bash commands
 > | :-- | --- | :-- |
 
 > | $ `cat wishlist.txt > to-do-list.txt` <br> (replace the text in to-do-list.txt with the text in wishlist.txt) | or | `cat wishlist.txt >> to-do-list.txt` <br> (append the text in wishlist.txt at the end of to-do-list.txt) |
+> | :-- | --- | :-- |
+#
+### Moving, Renaming and Removing
+
+| Command | Purpose |
+| --- | --- |
+| `mv` _(move)_ | move or rename files and directories |
+| `rm` _(remove)_ | remove files and directories |
+| `rmdir` _(remove directory)_ | remove empty directories |
+
+> [!NOTE]
+> `mv` - If second argument is neither file nor directory then it will be renamed
+>
+> If the second argument is an existing file/directory then it will be overwritten and original file/directory will be removed
+
+> | $ `mv old-name.txt new-name.txt` | ➜ | $ `cat old-name.txt` <br> `cat: old-name.txt: No such file or directory` |
+> | :-- | --- | :-- |
+
+> | $ `mv greet.txt ../directory-b` | ➜ | $ `cat greet.txt` <br> `cat: greet.txt: No such file or directory` |
+> | :-- | --- | :-- |
+
+> | $ `rm greet.txt` | ➜ | $ `cat greet.txt` <br> `cat: greet.txt: No such file or directory` |
+> | :-- | --- | :-- |
+
+> | $ `rmdir empty-dir/` | ➜ | $ `cd empty-dir` <br> `bash: cd: name: No such file or directory` |
+> | :-- | --- | :-- |
+
+> | $ `rm -r directory-a/` | ➜ | $ `cd directory-a` <br> `bash: cd: name: No such file or directory` |
 > | :-- | --- | :-- |
 #
