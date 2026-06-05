@@ -91,23 +91,29 @@ Personal notes from practicing Git Bash commands
 | `rm` _(remove)_ | remove files and directories |
 | `rmdir` _(remove directory)_ | remove empty directories |
 
+> | $ `mv old-name.txt new-name.txt` <br> (file old-name.txt is renamed to new-name.txt) | ➜ | $ `cat old-name.txt` <br> `cat: old-name.txt: No such file or directory` |
+> | :-- | --- | :-- |
+
+> | $ `mv greet.txt ../directory-b` <br> (file greet.txt is moved to directory-b within parent directory) | ➜ | $ `cd ../directory-b` <br> $ `ls` <br> `greet.txt` |
+> | :-- | --- | :-- |
+
+> | $ `rm greet.txt` <br> (file greet.txt is removed) | ➜ | $ `cat greet.txt` <br> `cat: greet.txt: No such file or directory` |
+> | :-- | --- | :-- |
+
+> | $ `rmdir empty-dir/` <br> (directory empty-dir is removed) | ➜ | $ `cd empty-dir` <br> `bash: cd: name: No such file or directory` |
+> | :-- | --- | :-- |
+
+> | $ `rm -r directory-a/` <br> (directory-a is removed along with all its files) | ➜ | $ `cd directory-a` <br> `bash: cd: name: No such file or directory` |
+> | :-- | --- | :-- |
+
 > [!NOTE]
-> `mv` - If second argument is neither file nor directory then it will be renamed
+> If the second argument of `mv` is an existing file name then it will be overwritten and original file will be removed
 >
-> If the second argument is an existing file/directory then it will be overwritten and original file/directory will be removed
-
-> | $ `mv old-name.txt new-name.txt` | ➜ | $ `cat old-name.txt` <br> `cat: old-name.txt: No such file or directory` |
+> e.g. Suppose both greet.txt and wish.txt exists
+>
+> | $ `cat greet.txt` <br> `Hello, World!` | and | $ `cat wish.txt` <br> `Hello, Friend!` |
 > | :-- | --- | :-- |
-
-> | $ `mv greet.txt ../directory-b` | ➜ | $ `cat greet.txt` <br> `cat: greet.txt: No such file or directory` |
-> | :-- | --- | :-- |
-
-> | $ `rm greet.txt` | ➜ | $ `cat greet.txt` <br> `cat: greet.txt: No such file or directory` |
-> | :-- | --- | :-- |
-
-> | $ `rmdir empty-dir/` | ➜ | $ `cd empty-dir` <br> `bash: cd: name: No such file or directory` |
-> | :-- | --- | :-- |
-
-> | $ `rm -r directory-a/` | ➜ | $ `cd directory-a` <br> `bash: cd: name: No such file or directory` |
-> | :-- | --- | :-- |
+> 
+> | $ `mv greet.txt wish.txt` | ➜ | $ `cat wish.txt` <br> `Hello, World!` | and | `cat: greet.txt: No such file or directory` |
+> | :-- | --- | :-- | --- | :-- |
 #
