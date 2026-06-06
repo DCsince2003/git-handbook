@@ -117,3 +117,23 @@ Personal notes from practicing Git Bash commands
 > | $ `mv greet.txt wish.txt` | ➜ | $ `cat wish.txt` <br> `Hello, World!` | and | `cat: greet.txt: No such file or directory` |
 > | :-- | --- | :-- | --- | :-- |
 #
+### Copying
+
+| Command | Purpose |
+| --- | --- |
+| `cp` _(copy)_ | copy file or directory content |
+
+> | $ `cp greet.txt ../directory-b/` <br> (Create a copy of greet.txt in directory-b) | ➜ | $ `cd ../directory-b` <br> $ `ls` <br> `greet.txt` |
+> | :-- | --- | :-- |
+
+> | $ `cp -r directory-a/ directory-b/` <br> (Create a copy of directory-a in directory-b) | ➜ | $ `cd directory-b` <br> $ `ls` <br> `directory-a/` |
+> | :-- | --- | :-- |
+
+> | $ `cp greet.txt wish.txt` <br> (Overwrite the contents of wish.txt with those in greet.txt) |
+> | :-- |
+
+> [!NOTE]
+> If the second argument of `cp` is a file that does not exist then a new file will be automatically created.
+>
+> If the file already exists then its contents will be overwritten.
+#
