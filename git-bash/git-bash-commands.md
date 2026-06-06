@@ -136,4 +136,8 @@ Personal notes from practicing Git Bash commands
 > If the second argument of `cp` is a file that does not exist then a new file will be automatically created.
 >
 > If the file already exists then its contents will be overwritten.
+>
+> In case of directories, if directory-a and directory-b are first and second arguments respectively and directory-b does not exist.
+>
+> Then, directory-b will be created will all the contents of directory-a in directory-b.
 #
