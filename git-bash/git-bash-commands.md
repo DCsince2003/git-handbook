@@ -5,7 +5,7 @@ Personal notes from practicing Git Bash commands
 | Term | Description |
 | --- | --- |
 | File | A container that stores some content inside (text, image, video files, etc.). |
-| Directory | In the context of Command Line, _Folders_ are referred to as _Directories_. It's a container that holds files and other directories. |
+| Directory | In the context of Command Line, _Folders_ are referred to as _Directories_. <br> It's a container that holds files and other directories. |
 | Path | A path is a digital address that tells the computer where a file or directory is located. |
 | Current Directory | The directory you are currently inside (also known as Working Directory). |
 | Command | An instruction you give to the computer. |
@@ -140,4 +140,13 @@ Personal notes from practicing Git Bash commands
 > In case of directories, if directory-a and directory-b are first and second arguments respectively and directory-b does not exist.
 >
 > Then, directory-b will be created will all the contents of directory-a in directory-b.
+#
+
+### Useful Shortcuts
+| Shortcut | Action |
+| --- | --- |
+| `Tab` | Auto-complete file, directory, branch names |
+| `↑ / ↓` | Browse previous/next commands |
+| `Ctrl + C` | Stop running process |
+| `Ctrl + L` or `clear` | Clear screen |
 #
