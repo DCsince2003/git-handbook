@@ -12,6 +12,8 @@ Personal notes from practicing Git commands
 | Workind Directory | The current files and folders you are actively editing |
 | Staging Area _(Index)_ | A temporary area where changes are prepared before committing |
 | Commit | A saved snapshot of the project's state at a specific time |
+| Push | Upload your local commits to a remote repository to share your code |
+| Pull | Download and merge changes from a remote repository into your local branch |
 | Branch | An independent line of development within a repository |
 | Main/Master | The primary branch of a repository |
 | HEAD | A pointer to the currently checked-out commit or branch |
@@ -27,4 +29,23 @@ Personal notes from practicing Git commands
 | Installed locally on your computer |  Hosted online in the cloud |
 | Tracks history and manages code changes | Stores your Git repositories online so others can collaborate |
 | Works completely offline | Requires an internet connection to sync |
+#
+
+## Basic commands:
+### Initialize, Link, and Clone
+
+| Command | Purpose |
+| --- | --- |
+| `git init` | Initialize your local repository |
+| `git remote` | Link your local repository with a new online repository |
+| `git clone` | Create a copy of an existing repository on your local device |
+
+> | $ `git init` |
+> | :-- |
+
+> | `git remote add origin <repo_url>` <br> `add` - Add a new remote connection <br> `origin` - _(commonly used)_ Alias for the repo's url <br> `<repo_url>` - placeholder for the url |
+> | :-- |
+
+> | `git clone <repo_url>` |
+> | :-- |
 #
