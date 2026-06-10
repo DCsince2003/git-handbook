@@ -57,6 +57,7 @@ Personal notes from practicing Git commands
 | `git add` | Stage the changes to be committed |
 | `git restore` | Revert the changes or unstage them |
 | `git commit` | Track progress and separate different actions in your code |
+<img width="2888" height="964" alt="image" src="https://github.com/user-attachments/assets/e41fae25-2857-49a5-8ffb-01c533ca394a" />
 
 > | `git add README.md` <br> (Stage changes made in the README file) |
 > | :-- |
