@@ -13,6 +13,7 @@ Personal notes from practicing Git commands
 | Staging Area _(Index)_ | A temporary area where changes are prepared before committing |
 | Branch | An independent line of development within a repository |
 | Main/Master | The primary branch of a repository |
+| Merge | Combine the independent history and code changes from one branch into another |
 | Merge Conflict | A situation where Git cannot automatically reconcile conflicting changes |
 | Pull Request _(PR)_ | A request to review and merge code change |
 #
@@ -33,21 +34,21 @@ Personal notes from practicing Git commands
 | --- | --- |
 | `git init` | Initialize your local repository |
 | `git remote` | Link your local repository with a new online repository |
-| `git clone` | Create a copy of an existing repository on your local device |
+| `git clone` | Create a local copy of an existing remote repository |
 
 > | $ `git init` <br> Initialized empty Git repository in /path/to/your/project/.git/ |
 > | :-- |
 
-> | `git remote add origin <repo_url>` <br> `add` - Add a new remote connection <br> `origin` - _(commonly used)_ Alias for the repo's url <br> `<repo_url>` - placeholder for the url |
+> | `git remote add <name> <repo_url>` <br> `add` - Add a new remote connection <br> `<name>` - Alias for the repo's url _('origin' is a commonly used name)_ <br> `<repo_url>` - placeholder for the url |
 > | :-- |
 
 > | `git clone <repo_url>` |
 > | :-- |
 
 > [!NOTE]
-> If you have a local repo and want to link it with a new github repo then use `git init` to initialize your local repo <br> and then `git remote` to link it with the remote repo.
+> To connect a local project to a new GitHub repository, first initialize the local repository with `git init`, <br> then link it to the remote repository using `git remote`.
 >
-> If you want to import a copy of an already existing remote repo to your local workspace then import them using `git clone`.
+> To create a local copy of an existing remote repository - including its complete commit history and branches, use `git clone`.
 #
 
 ### Stage, Unstage, and Commit Changes
@@ -57,7 +58,7 @@ Personal notes from practicing Git commands
 | `git add` | Stage the changes to be committed |
 | `git restore` | Revert the changes or unstage them |
 | `git commit` | Track progress and separate different actions in your code |
-<img width="2888" height="964" alt="image" src="https://github.com/user-attachments/assets/e41fae25-2857-49a5-8ffb-01c533ca394a" />
+> <img width="2888" height="964" alt="image" src="https://github.com/user-attachments/assets/e41fae25-2857-49a5-8ffb-01c533ca394a" />
 
 > | `git add README.md` <br> (Stage changes made in the README file) |
 > | :-- |
