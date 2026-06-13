@@ -39,10 +39,10 @@ Personal notes from practicing Git commands
 > | $ `git init` <br> Initialized empty Git repository in /path/to/your/project/.git/ |
 > | :-- |
 
-> | `git remote add <name> <repo_url>` <br> `add` - Add a new remote connection <br> `<name>` - Alias for the repo's url _('origin' is a commonly used name)_ <br> `<repo_url>` - placeholder for the url |
+> | $ `git remote add <name> <repo_url>` <br> `add` - Add a new remote connection <br> `<name>` - Alias for the repo's url _('origin' is a commonly used name)_ <br> `<repo_url>` - placeholder for the url |
 > | :-- |
 
-> | `git clone <repo_url>` |
+> | $ `git clone <repo_url>` |
 > | :-- |
 
 > [!NOTE]
@@ -60,22 +60,22 @@ Personal notes from practicing Git commands
 | `git commit` | Track progress and separate different actions in your code |
 > <img width="2888" height="964" alt="image" src="https://github.com/user-attachments/assets/e41fae25-2857-49a5-8ffb-01c533ca394a" />
 
-> | `git add README.md` <br> (Stage changes made in the README file) |
+> | $ `git add README.md` <br> (Stage changes made in the README file) |
 > | :-- |
 
-> | `git add .` <br> (Stage all changes made in the working directory) |
+> | $ `git add .` <br> (Stage all changes made in the working directory) |
 > | :-- |
 
-> | `git add *.css` <br> (Stage every file with .css extension) |
+> | $ `git add *.css` <br> (Stage every file with .css extension) |
 > | :-- |
 
-> | `git restore index.html` <br> (Revert the changes made to the index.html file to its previously staged state) |
+> | $ `git restore index.html` <br> (Revert the changes made to the index.html file to its previously staged state) |
 > | :-- |
 
-> | `git restore --staged index.html` <br> (Unstage index.html file) |
+> | $ `git restore --staged index.html` <br> (Unstage index.html file) |
 > | :-- |
 
-> | `git commit` | or | `git commit -m "Update README"` |
+> | $ `git commit` | or | $ `git commit -m "Your Message"` |
 > | :-- | --- | :-- |
 #
 
