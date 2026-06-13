@@ -79,3 +79,15 @@ Personal notes from practicing Git commands
 > | :-- | --- | :-- |
 #
 
+### Check Current Status
+
+| Command | Purpose |
+| --- | --- |
+| `git status` | Check file changes, see staged updates, and plan your next commit |
+
+> | $ `git status` <br> On branch main <br> Your branch is up to date with 'origin/main'. <br><br> nothing to commit, working tree clean |
+> | :-- |
+
+> | $ `git status` <br> On branch main <br> Your branch is up to date with 'origin/main'. <br><br> Changes not staged for commit: <br> &emsp; (use "git add \<file>..." to update what will be committed) <br> &emsp; (use "git restore \<file>..." to discard changes in working directory) <br> &emsp;&emsp;&emsp; modified:   email_simulator.py <br><br> Untracked files: <br> &emsp; (use "git add \<file>..." to include in what will be committed) <br> &emsp;&emsp;&emsp; test_run.py <br><br> no changes added to commit (use "git add" and/or "git commit -a") |
+> | :-- |
+#
