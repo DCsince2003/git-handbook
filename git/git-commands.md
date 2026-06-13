@@ -91,3 +91,19 @@ Personal notes from practicing Git commands
 > | $ `git status` <br> On branch main <br> Your branch is up to date with 'origin/main'. <br><br> Changes not staged for commit: <br> &emsp; (use "git add \<file>..." to update what will be committed) <br> &emsp; (use "git restore \<file>..." to discard changes in working directory) <br> &emsp;&emsp;&emsp; modified:   email_simulator.py <br><br> Untracked files: <br> &emsp; (use "git add \<file>..." to include in what will be committed) <br> &emsp;&emsp;&emsp; test_run.py <br><br> no changes added to commit (use "git add" and/or "git commit -a") |
 > | :-- |
 #
+
+### Push The Changes
+
+| Command | Purpose |
+| --- | --- |
+| `git push` | Send your local commits to a remote repository online |
+
+> | $ `git push origin main` <br> (Push the _main_ branch to the remote _origin_) |
+> | :-- |
+
+> | $ `git push` <br> (Push the current branch to its remote _"tracking branch"_) |
+> | :-- |
+
+> | $ `git push -u origin <name>` <br> (Push a branch that you've never pushed before) |
+> | :-- |
+#
