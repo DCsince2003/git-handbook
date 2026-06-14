@@ -107,3 +107,23 @@ Personal notes from practicing Git commands
 > | $ `git push -u origin <name>` <br> (Push a branch that you've never pushed before) |
 > | :-- |
 #
+
+### Pull The Changes
+
+| Command | Purpose |
+| --- | --- |
+| `git fetch` | Download remote changes without modifying your current local branch or files |
+| `git pull` | Fetch and merge remote changes into your current local branch automatically |
+
+> | $ `git fetch` <br> (Download all remote updates without changing current branch) |
+> | :-- |
+
+> | $ `git fetch origin main` <br> (Download main changes without modifying current branch) |
+> | :-- |
+
+> | $ `git pull` <br> (Update current branch with latest remote changes) |
+> | :-- |
+
+> | $ `git pull origin main` <br> (Update current branch with latest changes from main) |
+> | :-- |
+#
