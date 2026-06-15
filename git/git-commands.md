@@ -58,7 +58,7 @@ Personal notes from practicing Git commands
 | `git add` | Stage the changes to be committed |
 | `git restore` | Revert the changes or unstage them |
 | `git commit` | Track progress and separate different actions in your code |
-> <img width="2888" height="964" alt="image" src="https://github.com/user-attachments/assets/e41fae25-2857-49a5-8ffb-01c533ca394a" />
+> <img width="2888" height="964" alt="git add and commit workflow" src="https://github.com/user-attachments/assets/e41fae25-2857-49a5-8ffb-01c533ca394a" />
 
 > | $ `git add README.md` <br> (Stage changes made in the README file) |
 > | :-- |
@@ -75,7 +75,7 @@ Personal notes from practicing Git commands
 > | $ `git restore --staged index.html` <br> (Unstage index.html file) |
 > | :-- |
 
-> | $ `git commit` | or | $ `git commit -m "Your Message"` |
+> | $ `git commit` | or | $ `git commit -m "Update README"` |
 > | :-- | --- | :-- |
 #
 
@@ -114,7 +114,7 @@ Personal notes from practicing Git commands
 | --- | --- |
 | `git fetch` | Download remote changes without modifying your current local branch or files |
 | `git pull` | Fetch and merge remote changes into your current local branch automatically |
-> <img width="3364" height="924" alt="image" src="https://github.com/user-attachments/assets/2dd5cc3b-7962-42a9-acb1-288d3be2303f" />
+> <img width="3364" height="924" alt="git push, fetch and pull workflow" src="https://github.com/user-attachments/assets/2dd5cc3b-7962-42a9-acb1-288d3be2303f" />
 
 > | $ `git fetch` <br> (Download all remote updates without changing current branch) |
 > | :-- |
