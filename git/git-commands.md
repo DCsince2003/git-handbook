@@ -114,6 +114,7 @@ Personal notes from practicing Git commands
 | --- | --- |
 | `git fetch` | Download remote changes without modifying your current local branch or files |
 | `git pull` | Fetch and merge remote changes into your current local branch automatically |
+> <img width="3364" height="924" alt="image" src="https://github.com/user-attachments/assets/2dd5cc3b-7962-42a9-acb1-288d3be2303f" />
 
 > | $ `git fetch` <br> (Download all remote updates without changing current branch) |
 > | :-- |
