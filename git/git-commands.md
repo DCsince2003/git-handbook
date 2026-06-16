@@ -128,3 +128,26 @@ Personal notes from practicing Git commands
 > | $ `git pull origin main` <br> (Update current branch with latest changes from main) |
 > | :-- |
 #
+
+### Branching
+
+| Command | Purpose |
+| --- | --- |
+| `git branch` | Create, list, rename, and delete branches in a Git repository |
+| `git switch` | Switch between branches and create new branch when required |
+
+> | $ `git branch` <br> (List all local branches) | or | $ `git branch -r` <br> (List remote branches only) | or | $ `git branch -a` <br> (List local and remote branches) |
+> | :-- | --- | :-- | --- | :-- |
+
+> | $ `git branch <new-branch>` <br> (Create a new branch) | or | $ `git switch -c <new-branch>` <br> (Create and switch to a new branch)
+> | :-- | --- | :-- |
+
+> | $ `git branch -m <new-name>` <br> (Rename the current branch) |
+> | :-- |
+
+> | $ `git branch -d <branch-name>` <br> (Delete a merged branch) |
+> | :-- |
+
+> | $ `git switch <branch>` <br> (Switch to an existing branch) |
+> | :-- |
+#
