@@ -153,6 +153,26 @@ Personal notes from practicing Git commands
 > | :-- |
 #
 
+### Merge your branch
+
+| Command | Purpose |
+| --- | --- |
+| `git merge` | Merge parallel work while retaining the full development timeline |
+
+> | $ `git merge <branch>` <br> (Merge specified branch into current branch) |
+> | :-- |
+
+> [!NOTE]
+> Merge Conflict happens when:
+> - Changes are made to the same part of a file
+> - One branch has deleted a file while the other branch has modified it
+>
+> Resolve Merge Conflict:
+> - _Accept Incoming Changes_ -  Overwrites changes on the current branch with changes from the branch being merged in
+> - _Accept Current Changes_ - Keeps changes on the current branch, and ignores changes from the branch being merged in
+> - _Accept Both Changes_ - Keeps both branch versions of the changed lines or files
+#
+
 ## The GitHub Flow
 
 <img width="2168" height="988" alt="the github flow" src="https://github.com/user-attachments/assets/ed6c238a-1849-44a5-a4e4-39920b00526c" />
