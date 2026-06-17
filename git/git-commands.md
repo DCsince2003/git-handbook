@@ -156,4 +156,5 @@ Personal notes from practicing Git commands
 ## The GitHub Flow
 
 <img width="2168" height="988" alt="the github flow" src="https://github.com/user-attachments/assets/ed6c238a-1849-44a5-a4e4-39920b00526c" />
+
 #
