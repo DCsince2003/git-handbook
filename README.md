@@ -55,3 +55,25 @@ git-handbook/
 - Git workflows
 
 ---
+
+## 🎯 Purpose
+
+The primary goal of this repository is to:
+
+- Document my Git learning journey
+- Maintain a personal reference guide
+- Consolidate commonly used commands in one place
+- Help beginners understand Git and Git Bash fundamentals
+
+---
+
+## 🚀 Who Is This For?
+
+This repository may be useful for:
+
+- Beginners learning Git and GitHub
+- Students practicing version control
+- Developers looking for a quick command reference
+- Anyone who wants concise Git and Git Bash notes
+
+---
