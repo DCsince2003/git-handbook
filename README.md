@@ -16,3 +16,19 @@ Contains notes related to Git commands, concepts, and workflows.
 - [`git/git-commands.md`](./git/git-commands.md)
 
 ---
+
+## 📂 Repository Structure
+
+```text
+git-handbook/
+│
+├── README.md
+│
+├── git-bash/
+│   └── git-bash-commands.md
+│
+└── git/
+    └── git-commands.md
+```
+
+---
