@@ -32,3 +32,26 @@ git-handbook/
 ```
 
 ---
+
+## 📝 Topics Covered
+
+### Git Bash
+- Command-line basics
+- File and directory navigation
+- Creating, moving, and deleting files
+- Working with paths
+- Useful shell commands
+- Terminal shortcuts
+
+### Git
+- Common Git terminology
+- Repository initialization
+- Staging changes
+- Committing changes
+- Branching
+- Merging
+- Remote repositories
+- Pulling and pushing changes
+- Git workflows
+
+---
