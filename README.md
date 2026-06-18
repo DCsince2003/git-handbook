@@ -77,3 +77,12 @@ This repository may be useful for:
 - Anyone who wants concise Git and Git Bash notes
 
 ---
+
+> [!NOTE]
+> This repository contains my personal notes from learning and practicing Git and Git Bash. They were created primarily for my own reference and learning rather than as a complete guide or tutorial for others.
+>
+> If you happen to find this repository useful, keep in mind that it only includes the commands, terms, and concepts that I have personally encountered and found worth noting. It is not an exhaustive collection of Git or Git Bash commands, and many commands or topics may be absent simply because I have not come across or used them yet.
+>
+> When using these notes as a reference, I encourage you to try the commands yourself and cross-reference them with the official documentation and other reliable resources to better understand their behavior and usage.
+
+---
